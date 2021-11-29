@@ -1,1 +1,1 @@
-# vue-press
+yarn docs:dev

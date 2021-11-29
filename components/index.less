@@ -1,0 +1,63 @@
+@primary-color: #005587;
+@border-radius-base: 4px;
+@btn-danger-bg: #C52A1A;
+@btn-danger-border: #C52A1A;
+@success-color: #22982E;
+@alert-success-bg-color: #fff;
+@alert-success-border-color: #22982E;
+@info-color: #fff;
+@alert-info-bg-color: #333;
+@alert-info-border-color: #333;
+@warning-color: #FFBF1F;
+@alert-warning-bg-color: #fff;
+@alert-warning-border-color: #FFBF1F;
+@error-color: #C52A1A;
+@alert-error-bg-color: #fff;
+@alert-error-border-color: #C52A1A;
+@slider-handle-background-color: #005587;
+
+// alert
+.ant-alert-warning {
+    .ant-alert-message {
+      color: @warning-color;
+    }
+  }
+  .ant-alert-success {
+    .ant-alert-message {
+      color: @success-color;
+    }
+  }
+  .ant-alert-error {
+    .ant-alert-message {
+      color: @error-color;
+    }
+  }
+  .ant-alert-info {
+    .ant-alert-message {
+      color: @info-color;
+    }
+  }
+
+  // slider
+  .ant-slider-handle {
+    border-color: @slider-handle-background-color;
+  }
+
+  // tag
+  .ant-tag {
+    border: 1px solid @primary-color;
+    color: @primary-color;
+    border-radius: 15px;
+    background: transparent;
+  
+    .anticon-close {
+      color: @primary-color;
+    }
+  }
+
+  // breadcrumb
+  .ant-breadcrumb > span:last-child {
+    color: @primary-color;
+    font-size: 16px;
+    line-height: 2.5;
+  }
